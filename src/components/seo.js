@@ -71,13 +71,13 @@ function SEO({ description, lang, meta, title }) {
       link={[
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Staatliches",
+          href: "https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Monofett&family=Play:wght@400;700&display=swap",
         },
-        {
-          rel: "stylesheet",
-          href:
-            "https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css",
-        },
+        // {
+        //   rel: "stylesheet",
+        //   href:
+        //     "https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css",
+        // },
       ]}
       script={[
         {

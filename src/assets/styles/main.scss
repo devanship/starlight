@@ -1,0 +1,87 @@
+@import '../framework/variables-theme.scss';
+@import 'node_modules/uikit/src/scss/mixins-theme.scss';
+@import 'node_modules/uikit/src/scss/uikit-theme.scss';
+
+.index-page-hero {
+    &_welcome {
+        margin: 0;
+    }
+
+    &_starlight {
+        margin: 0;
+    }
+}
+
+.index-page-body {
+    .uk-card-body {
+        padding: 0 0;
+    }
+
+    .index-page-overlay {
+        background: rgba(39, 43, 49, .5);
+        width: 100%;
+    }
+
+    .index-page-address {
+        overflow: hidden;
+        margin-bottom: 10px;
+
+        .uk-card-body {
+            height: 100%;
+
+            p {margin: 24px 0;}
+
+            .index-page-map {
+                height: 100%;
+                
+            }
+        }
+    }
+}
+
+.title-page-overlay {
+    background: rgba(39, 43, 49, .5);
+    width: 100%;
+}
+
+.order-nav-btn, .email-signup-btn  {
+    background-color: red;
+    color: $global-color;
+}
+
+.contact-page {
+    &_heading{
+        margin-bottom: 50px;
+    }
+
+}
+.uk-form {
+    .uk-margin {
+        input {
+            height: 50px;
+            background-color: $global-color;
+        }
+
+        textarea {
+            height: 100px;
+            background-color: $global-color;
+        }
+
+        .left {
+            margin-right: 10px;
+        }
+
+        select {
+            height: 50px !important;
+            background-color: $global-color;
+            color: $global-muted-color;
+        }
+        
+    }
+}
+
+.specials-page {
+    .uk-background-cover {
+        padding: 0;
+    }
+}

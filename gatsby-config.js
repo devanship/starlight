@@ -5,10 +5,11 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "The Starlight",
-    description: "Klassy with a Capital K",
+    description: "A craft tavern with a backyard and skeeball with prizes",
     author: "Patrick Craig",
   },
   plugins: [
+    "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
@@ -23,9 +24,14 @@ module.exports = {
         apiURL: process.env.API_URL || "http://localhost:1337",
         contentTypes: [
           // List of the Content Types you want to be able to request from Gatsby.
-          "event",
+          "special",
+          "party",
+          "late-night-happy-hour",
+          "happy-hour",
           "article",
-          "category"
+          "category",
+          "hour",
+          "menu"
         ],
         queryLimit: 1000,
       },
@@ -41,7 +47,8 @@ module.exports = {
         background_color: "#663399",
         theme_color: "#663399",
         display: "minimal-ui",
-        icon: `src/images/gatsby-icon.png`,      },
+        //icon: `src/images/gatsby-icon.png`,      
+      },
     },
     "gatsby-plugin-offline",
   ],
