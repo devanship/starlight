@@ -33,6 +33,9 @@ class IndexPage extends Component {
                 <p className="uk-text-italic index-page-hero_adderess-phone">
                   596 Grand Street, Brooklyn, NY 11211 - 718.486.3700
                 </p>
+                <p className="">
+                  ***Temporarily closed due to COVID***
+                </p>
               </div>
             </div>
           </div>
