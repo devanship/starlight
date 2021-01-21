@@ -44,7 +44,6 @@ const LateNightHappyHour = () => (
                   </div>
                 </div>
                 <hr class="uk-divider-icon"></hr>
-                {lnhh.node.items}
                 {(lnhh.node.items.split(",")).map((m, i) => {
                   return (<div>{m}</div>)
                 })}
