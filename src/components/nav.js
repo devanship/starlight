@@ -33,7 +33,7 @@ const Nav = () => (
             Parties and Events
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to={"/contact"}>
             Contact
           </Link>
@@ -42,7 +42,7 @@ const Nav = () => (
           <Link href="https://www.grubhub.com/restaurant/the-starlight-596-grand-st-brooklyn/327724?classicAffiliateId=%2Fr%2Fw%2F40339%2Frestaurant%2F327724">
             <button className="uk-button uk-button-primary order-nav-btn">Order Online</button>
           </Link>
-        </li>
+        </li> */}
       </ul>
       <a href="#" className="uk-navbar-toggle uk-hidden@s" uk-icon="icon: menu" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
     </div>
@@ -62,7 +62,7 @@ const Nav = () => (
             Happy Hours and Specials
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to={"/parties"}>
             Parties and Events
           </Link>
@@ -76,7 +76,7 @@ const Nav = () => (
           <Link href="https://www.grubhub.com/restaurant/the-starlight-596-grand-st-brooklyn/327724?classicAffiliateId=%2Fr%2Fw%2F40339%2Frestaurant%2F327724">
             <button className="uk-button uk-button-primary order-nav-btn">Order Online</button>
           </Link>
-        </li>
+        </li> */}
     </ul>
 </div>
 </div>

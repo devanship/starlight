@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
         {children}
       <a href="" uk-totop></a>
       </main>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
