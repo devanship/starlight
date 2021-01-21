@@ -42,7 +42,9 @@ const HappyHour = () => (
                   </div>
                 </div>
                 <hr class="uk-divider-icon"></hr>
-                {hh.node.meals}
+                {(hh.node.meals.split(",")).map((m, i) => {
+                  return (<div>{m}</div>)
+                })}
               </div>
             </div>
           )
