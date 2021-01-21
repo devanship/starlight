@@ -5,13 +5,15 @@ import moment from "moment"
 const EventList = () => (
 
   <div className="uk-grid uk-child-width-expand@s">
+    No specials at the moment.
 
-    <StaticQuery
+    {/* <StaticQuery
       query={graphql`
       {
         allStrapiSpecial {
           edges {
             node {
+              id
               desc
               display
               strapiId
@@ -53,7 +55,7 @@ const EventList = () => (
           )
         })
       }
-    />
+    /> */}
   </div>
 
 )
